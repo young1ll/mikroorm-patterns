@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: transactional-outbox-relay
+expected_outcome: |
+  Outbox rows written in the same transaction/flush as the aggregate change; relay uses SKIP LOCKED (PESSIMISTIC_PARTIAL_WRITE) in its own request context; at-least-once with consumer dedupe; no broker call inside the business transaction.

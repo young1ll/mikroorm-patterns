@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: orders-list-n-plus-one
+expected_outcome: |
+  Identifies N+1/uninitialized relations, uses populate with balanced default (no global joined), Loaded types or a non-hydrating projection, keeps tenant filtering.

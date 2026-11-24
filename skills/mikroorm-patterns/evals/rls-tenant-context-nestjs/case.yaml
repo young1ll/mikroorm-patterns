@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: rls-tenant-context-nestjs
+expected_outcome: |
+  Entity-level policies with rowLevelSecurity, session context staged after authentication (guard, not a middleware reading req.user), non-owner app role, transactions not disabled, tenant index.

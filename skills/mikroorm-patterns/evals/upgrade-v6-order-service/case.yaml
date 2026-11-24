@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: upgrade-v6-order-service
+expected_outcome: |
+  v7 code: decorators from @mikro-orm/decorators/legacy, ReflectMetadataProvider mentioned, single flush instead of persistAndFlush in loop, getKysely or QB instead of getKnex, orm.migrator getter, explicit deleteRule instead of relying on Cascade.REMOVE for DB behavior.
